@@ -32,3 +32,5 @@ EX: bugfix/navbar-dont-show-up
 
 update/update-name
 EX: update/navbar
+
+when finish task, create pull request and select pm(me) as the reviewer
