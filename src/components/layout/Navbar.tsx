@@ -46,11 +46,11 @@ export default function Navbar() {
         />
         <input
           type="text"
-          className="h-[33px] w-full rounded-md border border-[var(--primary-text-color)] px-9 py-1.5 text-sm placeholder-[var(--primary-text-color)]"
+          className="h-[33px] w-full rounded-md border border-[var(--primary-text-color)] px-10 py-1.5 text-sm placeholder-[var(--primary-text-color)]"
           placeholder="What are you looking for?"
         />
       </div>
-      <div className="flex items-center gap-6">
+      {/* <div className="flex items-center gap-6">
         <Link href="" className="font-bold">
           Log in
         </Link>
@@ -60,8 +60,8 @@ export default function Navbar() {
         >
           Sign up
         </Link>
-      </div>
-      {/* <div className="flex items-center gap-3">
+      </div> */}
+      <div className="flex items-center gap-3">
         <img
           src="https://images.ctfassets.net/ub3bwfd53mwy/5zi8myLobtihb1cWl3tj8L/45a40e66765f26beddf7eeee29f74723/6_Image.jpg?w=750"
           alt="user-avatar"
@@ -69,7 +69,7 @@ export default function Navbar() {
         />
         <p className="font-bold leading-[23.7px] cursor-pointer">Hieu</p>
         <img src="assets/down-arrow.svg" alt="down-arrow" className="cursor-pointer"/>
-      </div> */}
+      </div>
     </nav>
   );
 }
