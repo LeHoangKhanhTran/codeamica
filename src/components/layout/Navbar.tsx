@@ -1,14 +1,17 @@
 import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav className="flex flex-row items-center justify-between px-8 py-4">
       <div className="flex basis-2/5 flex-nowrap items-center gap-x-16">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+
           <img
             src="assets/logo.svg"
             className="h-8 min-h-[32px] min-w-[160px]"
             alt="Codeamica Logo"
           />
+
         </Link>
         <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse">
           <li>
@@ -69,6 +72,7 @@ export default function Navbar() {
         />
         <p className="font-bold leading-[23.7px] cursor-pointer">Hieu</p>
         <img src="assets/down-arrow.svg" alt="down-arrow" className="cursor-pointer"/>
+
       </div>
     </nav>
   );
